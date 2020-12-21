@@ -154,3 +154,16 @@ $ service vsftpd status
 $ ./configure (verifica se a máquina está ok para instalar)
 $ make
 $ make install (tem que ser root)
+
+###-----------------------------------
+###-----------------------------------
+
+# acessar máquina remota
+# instalar ssh (client e servidor)
+$ apt install ssh
+
+# exibir graficamente o que acontece na máquina remota
+$ ssh -X usuario@ipdamaquinaremota ou ip
+
+# copiar arquivo da pasta local para a máquina remota
+$ scp work.zip jose@localhost:~/
