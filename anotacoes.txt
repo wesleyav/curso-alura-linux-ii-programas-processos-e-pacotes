@@ -1,0 +1,21 @@
+# exibir processos executados (somente bash)
+$ ps
+
+# exibir processos executados no linux
+$ ps -e
+
+# encerrar o processo com chance de recuperação
+$ kill + número do processo
+
+# encerrar o processo em definitivo
+$ kill -9 + número do processo
+
+# exibir processos com detalhes
+$ ps -ef
+
+# exibir processo usando filtro
+$ ps -ef | grep + nome do termo
+$ ps -ef | grep firefox
+
+###-----------------------------------
+###-----------------------------------
