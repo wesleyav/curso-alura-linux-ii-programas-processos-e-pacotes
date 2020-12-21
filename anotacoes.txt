@@ -127,3 +127,19 @@ $ pdkg -i nome do pacote .deb
 
 # remover pacotes
 $ dpkg -r nome do pacote
+
+###-----------------------------------
+###-----------------------------------
+
+# parar serviço
+$ service + nome do serviço + stop
+$ service vsftpd stop
+
+# local dos scripts de inicialização
+$ /etc/init.d/
+
+# verificar quais serviços estão configurados
+$ ls /etc/init.d/
+
+# verificar status do serviço
+$ service vsftpd status
