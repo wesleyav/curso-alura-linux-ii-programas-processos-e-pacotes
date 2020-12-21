@@ -28,3 +28,22 @@ $ killall -9 top (encerra todos os processos do top)
 
 ###-----------------------------------
 ###-----------------------------------
+
+# jogar processos para o background
+$ bg
+
+# jogar processos para o foreground
+$ fg
+
+# executar processo em background
+$ firefox
+$ Ctrl + z + bg
+
+# visualizar processos pausados em segundo plano no bash atual
+$ jobs
+
+# executar processo diretamente no background
+$ firefox &
+
+# exibir árvore de processos
+$ pstree
