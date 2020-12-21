@@ -143,3 +143,14 @@ $ ls /etc/init.d/
 
 # verificar status do serviço
 $ service vsftpd status
+
+###-----------------------------------
+###-----------------------------------
+
+# instalar via arquivo fonte
+# baixar o arquivo (normalmente tar.gz)
+# descompactar o diretório
+# acessar o diretório e executar o configure
+$ ./configure (verifica se a máquina está ok para instalar)
+$ make
+$ make install (tem que ser root)
