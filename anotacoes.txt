@@ -92,3 +92,9 @@ $ su root + senha
 
 ###-----------------------------------
 ###-----------------------------------
+
+# adicionar usuário
+$ adduser + nome do novo usuário
+
+# removendo permissão de leitura e execução para outros exceto o use jose
+$ chmod o-rx jose
