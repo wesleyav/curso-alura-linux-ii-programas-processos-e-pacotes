@@ -74,3 +74,21 @@ $ updatedb
 
 # executar como adm
 $ sudo updatedb
+
+###-----------------------------------
+###-----------------------------------
+
+# exibir qual arquivo será executado ao executar comando
+$ which firefox
+
+# alterar senha de usuário não root
+$ passwd
+
+# alterar senha do usuário root
+$ sudo passwd
+
+# logar com usuário root
+$ su root + senha
+
+###-----------------------------------
+###-----------------------------------
