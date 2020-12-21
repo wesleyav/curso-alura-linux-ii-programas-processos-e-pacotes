@@ -62,3 +62,15 @@ $ chmod -x dorme
 
 # executar script no diretório atual
 $ ./dorme
+
+###-----------------------------------
+###-----------------------------------
+
+# localizar arquivos no hd
+$ locate firefox
+
+# atualizar tabela de dados para as buscas no sistema
+$ updatedb
+
+# executar como adm
+$ sudo updatedb
