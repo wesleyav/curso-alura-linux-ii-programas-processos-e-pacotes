@@ -19,3 +19,12 @@ $ ps -ef | grep firefox
 
 ###-----------------------------------
 ###-----------------------------------
+
+# exibir informações dos processos
+$ top
+
+# matar todos os processos usando filtro
+$ killall -9 top (encerra todos os processos do top)
+
+###-----------------------------------
+###-----------------------------------
