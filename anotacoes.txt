@@ -104,3 +104,17 @@ $ chmod o-rx jose
 
 # visualizar variáveis de ambiente
 $ env | grep PATH
+
+###-----------------------------------
+###-----------------------------------
+
+# listar softwares pelo filtro ftp (disponíveis para a distro)
+$ apt-cache search ftp
+
+# instalar pacotes
+$ apt install + nome do pacote
+$ apt install vsftpd
+
+# remover pacotes
+$ apt remove + nome do pacote
+$ apt remove vsftpd
