@@ -47,3 +47,18 @@ $ firefox &
 
 # exibir árvore de processos
 $ pstree
+
+###-----------------------------------
+###-----------------------------------
+
+# exibir usuário atual
+$ whoami
+
+# adicionar capacidade de executar arquivo
+$ chmod + x dorme
+
+# remover capacidade de executar arquivo
+$ chmod -x dorme
+
+# executar script no diretório atual
+$ ./dorme
